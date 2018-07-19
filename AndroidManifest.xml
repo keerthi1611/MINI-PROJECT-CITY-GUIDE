@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.cityguide"
+    android:versionCode="1"
+    android:versionName="1.0"
+       >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Mainlogin"
+            android:label="@string/app_name"
+             android:screenOrientation="portrait"  >
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Areatable"
+            android:label="@string/title_activity_areatable"
+            android:screenOrientation="portrait"  >
+        </activity>
+        <activity
+            android:name=".Areatableprocess"
+            android:label="@string/title_activity_areatableprocess" 
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Collegetable"
+            android:label="@string/title_activity_collegetable" 
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Collegetableprocess"
+            android:label="@string/title_activity_collegetableprocess" 
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Citypage0"
+            android:label="@string/title_activity_citypage0" 
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name=".Citypage01"
+            android:label="@string/title_activity_citypage01"
+            android:screenOrientation="portrait"  >
+        </activity>
+        <activity
+            android:name=".Citypage02"
+            android:label="@string/title_activity_citypage02"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Citypage03"
+            android:label="@string/title_activity_citypage03" >
+        </activity>
+        <activity
+            android:name=".Citypage04"
+            android:label="@string/title_activity_citypage04"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Citypage05"
+            android:label="@string/title_activity_citypage05" 
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".Citypage06"
+            android:label="@string/title_activity_citypage06"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Hospitaltable"
+            android:label="@string/title_activity_hospitaltable" 
+            android:screenOrientation="portrait" >
+            
+        </activity>
+        <activity
+            android:name=".Hospitaltableprocess"
+            android:label="@string/title_activity_hospitaltableprocess" 
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Malltable"
+            android:label="@string/title_activity_malltable"
+            android:screenOrientation="portrait"  >
+        </activity>
+        <activity
+            android:name=".Malltableprocess"
+            android:label="@string/title_activity_malltableprocess"
+            android:screenOrientation="portrait"  >
+        </activity>
+        <activity
+            android:name=".Studentwelfaretable"
+            android:label="@string/title_activity_studentwelfaretable"
+            android:screenOrientation="portrait"  >
+        </activity>
+        <activity
+            android:name=".Studenttableprocess"
+            android:label="@string/title_activity_studenttableprocess"
+            android:screenOrientation="portrait"  >
+        </activity>
+    </application>
+
+</manifest>
